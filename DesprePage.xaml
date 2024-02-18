@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GymMobile.DesprePage"
+             Title="Fa-te forta cu 69 Gym">
+
+    <ScrollView>
+<FlexLayout Direction="Column" JustifyContent="Start" AlignItems="Start" Margin="10">
+
+    <HorizontalStackLayout Spacing="20">
+        <Image Source="grill.webp"
+               SemanticProperties.Description="Fa-te forta la 69 Gym"
+               HeightRequest="64" />
+        <Label FontSize="20" FontAttributes="Bold" Text="Fa muschi unde iti place tie." VerticalOptions="End" LineBreakMode="WordWrap"/>
+    </HorizontalStackLayout>
+    <BoxView HeightRequest="20" />
+
+    <Label Text="Bine ai venit pe blogul personal al lui Geani, antrenorul care stie cum sa te faca sa razi si sa iti pompezi muschii in acelasi timp. Aici, la '69 Gym', avem o abordare unica si... hai sa zicem, picanta, in a te ajuta sa obtii corpul la care visezi." LineBreakMode="WordWrap" />
+    <BoxView HeightRequest="10" />
+    <!-- Adaugare linie libera -->
+
+    <Label Text="Stii cum se zice, in viata trebuie sa gasesti placerea in tot ceea ce faci, iar asta include si sala de fitness. De ce sa nu te distrezi putin in timp ce iti lucrezi tricepsul sau, sa zicem, in timp ce faci squat? La '69 Gym', ne place sa credem ca exercitiile fizice sunt ca si cum ai citi o carte buna... dar intre picioarele cuiva." LineBreakMode="WordWrap" />
+    <BoxView HeightRequest="10" />
+    <!-- Adaugare linie libera -->
+
+    <Label Text="Am creat un program de antrenament care combina placerea cu durerea (in sensul bun, evident). De exemplu, avem un exercitiu special numit 'Citește-mi flexurile', unde partenerii se ajuta reciproc sa atinga noile inaltimi... ale literaturii erotice, in timp ce fac pliometrie. E ca o metafora pentru viata: pentru a ajunge la capitolele cele mai interesante, trebuie sa treci prin cateva squat-uri grele." LineBreakMode="WordWrap" />
+    <BoxView HeightRequest="10" />
+    <!-- Adaugare linie libera -->
+
+    <Label Text="Si pentru ca stim ca esti ocupat, la '69 Gym' avem programe de antrenament scurte, dar intense, perfecte pentru a-ti tonifia corpul si a-ti condimenta viata amoroasa. Fie ca esti aici pentru a-ti imbunatati performanta in dormitor sau doar pentru a arata bine in costum de baie, avem tot ce iti trebuie. Si cine stie? Poate inveti si cateva miscari noi pe care sa le incerci... in biblioteca." LineBreakMode="WordWrap" />
+
+</FlexLayout>
+    </ScrollView>
+</ContentPage>
